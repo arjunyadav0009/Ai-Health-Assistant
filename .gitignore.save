@@ -1,0 +1,19 @@
+.env
+.venv/
+__pycache__/
+.DS_Store
+vector_db/
+
+
+git add .
+git commit -m "Prepare project for GitHub"
+git pull origin main --allow-unrelated-histories --no-rebase
+git push -u origin main
+create mode 100644 .env
+
+
+
+
+
+
+
